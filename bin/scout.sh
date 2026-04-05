@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+BORIS_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+claude \
+  --system-prompt "$(cat "$BORIS_DIR/core/rules.md")
+
+$(cat "$BORIS_DIR/core/scout_prompt.txt")"
