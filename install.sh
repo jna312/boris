@@ -33,3 +33,7 @@ echo ""
 echo "Then from any project root, run:"
 echo "boris"
 echo "On Windows, run: ./bin/boris.ps1"
+
+echo ""
+echo "If you're on Windows, run this in PowerShell:"
+echo "Set-Alias boris $HOME/.boris/bin/boris.ps1"
