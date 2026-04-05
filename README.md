@@ -90,3 +90,11 @@ Build a feature:
 AI is not the engineer.
 
 **The system is the engineer.**
+
+## OS Support
+
+Mac:
+  boris
+
+Windows:
+  ./bin/boris.ps1
