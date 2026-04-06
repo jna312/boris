@@ -1,0 +1,7 @@
+#!/bin/zsh
+BORIS_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+claude \
+  --system-prompt "$(cat "$BORIS_DIR/core/single_session_prompt.txt")" \
+  --tools "Bash,Edit,Read,Write" \
+  --permission-mode acceptEdits
